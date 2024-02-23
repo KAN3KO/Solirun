@@ -1,0 +1,124 @@
+<html lang="fr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Solirun</title>
+    <link rel="stylesheet" href="Solirun.css">
+
+</head>
+
+<body>
+    <div class="Part1Top">
+        <label for="secondsInput">Temps course :</label>
+        <input type="number" id="secondsInput" min="1" placeholder="Entrez un nombre">
+        <p class="Txt2">secondes</p>
+    </div>
+    <div class="Part2Top">
+        <button id="startButton" onclick="startCourse()">Start</button>
+        <button id="stopButton" onclick="stopCourse()">Stop</button>
+        <button id="resetButton" onclick="resetCourse()">Réinitialiser</button>
+    </div>
+    <p id="countdownDisplay">0:00</p>
+
+
+    <div class="equipe1">
+        <div class="cadre1">
+            <form>
+                <select class="classe1">
+                    <option value="Valeur0"> -- Choisissez une classe -- </option>
+                    <option value="Valeur1"> Test 1 </option>
+                    <option value="Valeur2"> Test 2 </option>
+                    <option value="Valeur3"> Test 3 </option>
+                </select>
+            </form>
+        </div>
+
+        <div class="cadre3">
+            <p> 0 </p>
+        </div>
+
+        <button class="cadre4" type="button" onclick="increment()"> + </button>
+
+        <button class="cadre5" type="button"> - </button>
+
+    </div>
+
+    <div class="equipe2">
+
+        <div class="cadre6">
+            <form>
+                <select class="classe2">
+                    <option value="Valeur0"> -- Choisissez une classe -- </option>
+                    <option value="Valeur1"> Test 1 </option>
+                    <option value="Valeur2"> Test 2 </option>
+                    <option value="Valeur3"> Test 3 </option>
+                </select>
+            </form>
+        </div>
+
+
+
+        <div class="cadre8">
+            <p> 0 </p>
+        </div>
+
+        <button class="cadre9" type="button" onclick="increment(1)"> + </button>
+
+        <button class="cadre10" type="button"> - </button>
+
+    </div>
+
+    <div class="equipe3">
+        <div class="cadre11">
+            <form>
+                <select class="classe3">
+                    <option value="Valeur0"> -- Choisissez une classe -- </option>
+                    <option value="Valeur1"> Test 1 </option>
+                    <option value="Valeur2"> Test 2 </option>
+                    <option value="Valeur3"> Test 3 </option>
+                </select>
+            </form>
+        </div>
+
+
+        <div class="cadre13">
+            <p> 0 </p>
+        </div>
+
+        <button class="cadre14" type="button" onclick="increment(2)"> + </button>
+
+        <button class="cadre15" type="button"> - </button>
+
+    </div>
+
+    <div class="equipe4">
+        <div class="cadre16">
+            <form>
+                <select class="classe4">
+                    <option value="Valeur0"> -- Choisissez une classe -- </option>
+                    <option value="Valeur1"> Test 1 </option>
+                    <option value="Valeur2"> Test 2 </option>
+                    <option value="Valeur3"> Test 3 </option>
+                </select>
+            </form>
+        </div>
+
+        <div class="cadre18">
+            <p> 0 </p>
+        </div>
+
+        <button class="cadre19" type="button" onclick="increment(3)"> + </button>
+
+        <button class="cadre20" type="button"> - </button>
+
+    </div>
+
+
+
+
+
+
+    <script src="Solirun.js"> </script>
+</body>
+
+</html>

@@ -1,0 +1,53 @@
+
+.cadre2,
+.cadre3,
+.cadre4 {
+    position: absolute;
+    display: flex;
+    width: 20%; 
+    color : white;
+
+}
+
+.cadre2,
+.cadre3,
+.cadre4 {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.classe1 {
+    position: absolute;
+    top : 10%;
+    height: 150px;
+    width: 20%;
+    background-color: #d81111;
+    color : white;
+    text-align: center;
+    left: 40%;
+    
+}
+
+.cadre2 {
+    top: 40%; 
+    height: 175px;
+    background-color: #d81111;
+    left: 40%;
+}
+
+.cadre3 {
+    top: 65%; 
+    height: 125px;
+    font-size: 5vw; 
+    background-color: #d81111;
+    left: 40%;
+}
+.cadre4 {
+    top: 80%; 
+    height: 125px;
+    font-size: 5vw; 
+    background-color: #d81111;
+    left: 40%;
+}
+
